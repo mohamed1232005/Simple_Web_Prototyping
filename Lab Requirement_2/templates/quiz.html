@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novels Quiz</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="quiz-box">
+        <h1>Novels Quiz</h1>
+        <form action="/submit_quiz" method="POST">
+            <!-- Question 1 (MCQ) -->
+            <label for="q1">1. Who wrote *Pride and Prejudice*?</label><br>
+            <input type="radio" name="q1" value="Jane Austen"> Jane Austen<br>
+            <input type="radio" name="q1" value="Charlotte Brontë"> Charlotte Brontë<br>
+            <input type="radio" name="q1" value="Emily Brontë"> Emily Brontë<br><br>
+
+            <!-- Question 2 (True/False) -->
+            <label for="q2">2. *1984* was written by George Orwell.</label><br>
+            <input type="radio" name="q2" value="True"> True<br>
+            <input type="radio" name="q2" value="False"> False<br><br>
+
+            <!-- Question 3 (MCQ) -->
+            <label for="q3">3. Which novel is set in the fictional town of Maycomb?</label><br>
+            <input type="radio" name="q3" value="To Kill a Mockingbird"> To Kill a Mockingbird<br>
+            <input type="radio" name="q3" value="The Great Gatsby"> The Great Gatsby<br>
+            <input type="radio" name="q3" value="Moby Dick"> Moby Dick<br><br>
+
+            <!-- Question 4 (True/False) -->
+            <label for="q4">4. *The Catcher in the Rye* is a dystopian novel.</label><br>
+            <input type="radio" name="q4" value="True"> True<br>
+            <input type="radio" name="q4" value="False"> False<br><br>
+
+            <!-- Additional Questions -->
+
+            <!-- Question 5 (MCQ) -->
+            <label for="q5">5. Who wrote *Moby Dick*?</label><br>
+            <input type="radio" name="q5" value="Herman Melville"> Herman Melville<br>
+            <input type="radio" name="q5" value="Mark Twain"> Mark Twain<br>
+            <input type="radio" name="q5" value="Ernest Hemingway"> Ernest Hemingway<br><br>
+
+            <!-- Question 6 (True/False) -->
+            <label for="q6">6. *The Great Gatsby* was published in 1925.</label><br>
+            <input type="radio" name="q6" value="True"> True<br>
+            <input type="radio" name="q6" value="False"> False<br><br>
+
+            <!-- Question 7 (MCQ) -->
+            <label for="q7">7. Which novel was written by J.R.R. Tolkien?</label><br>
+            <input type="radio" name="q7" value="The Hobbit"> The Hobbit<br>
+            <input type="radio" name="q7" value="The Catcher in the Rye"> The Catcher in the Rye<br>
+            <input type="radio" name="q7" value="1984"> 1984<br><br>
+
+            <!-- Question 8 (MCQ) -->
+            <label for="q8">8. Who wrote *To Kill a Mockingbird*?</label><br>
+            <input type="radio" name="q8" value="Harper Lee"> Harper Lee<br>
+            <input type="radio" name="q8" value="F. Scott Fitzgerald"> F. Scott Fitzgerald<br>
+            <input type="radio" name="q8" value="George Orwell"> George Orwell<br><br>
+
+            <!-- Question 9 (True/False) -->
+            <label for="q9">9. *Moby Dick* was published after *The Great Gatsby*.</label><br>
+            <input type="radio" name="q9" value="True"> True<br>
+            <input type="radio" name="q9" value="False"> False<br><br>
+
+            <!-- Question 10 (MCQ) -->
+            <label for="q10">10. Which novel was written by F. Scott Fitzgerald?</label><br>
+            <input type="radio" name="q10" value="The Great Gatsby"> The Great Gatsby<br>
+            <input type="radio" name="q10" value="Moby Dick"> Moby Dick<br>
+            <input type="radio" name="q10" value="The Hobbit"> The Hobbit<br><br>
+
+            <input type="submit" value="Submit Quiz">
+        </form>
+    </div>
+</body>
+</html>
