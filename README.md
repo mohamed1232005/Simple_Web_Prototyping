@@ -5,7 +5,7 @@
 This is a simple web application built using HTML, CSS, and Flask. The goal of the application is to demonstrate how to create a basic form, handle user input on the backend using Flask, and display the results back to the user. Additionally, the app features a basic quiz form where users can answer multiple-choice questions and receive a score based on their answers.
 
 ##Features
-User input form with fields for Name and Email.
+`User input form with fields for Name and Email.`
 A basic quiz form with multiple-choice questions.
 Backend processing using Flask.
 Displays submitted form data and quiz results on a result page.
